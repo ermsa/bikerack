@@ -1,9 +1,12 @@
 from flask import Flask
-from flask_restful import Resource, Api
+#from flask_restful import Resource, Api
+from flask_restful_swagger_2 import Resource, Api
+from flask_cors import CORS
 from endpoints import root, racks, rack, racksCloseBy
 from datastore import Store
 
 app = Flask(__name__)
+CORS(app)
 api = Api(app)
 
 api.add_resource(root, '/<name>')
