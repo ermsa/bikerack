@@ -1,6 +1,6 @@
 from flask import jsonify, current_app
 from flask_restful.reqparse import RequestParser
-from flask_restful_swagger_2 import swagger, Resource, abort
+from flask_restful_swagger_2 import swagger, Resource
 from swaggerdocs import docRootGet, docRacksGet, docRacksPost, docRackGet, docRackDel, docRacksCloseByGet
 
 parser = RequestParser()

@@ -1,7 +1,8 @@
-from flask import current_app
-import csv
-from utils import distance
 import ast
+import csv
+from flask import current_app
+from utils import distance
+
 
 class Store:
     def __init__(self, datafile):
