@@ -8,7 +8,7 @@ Flask-RESTful==0.3.6
 flask-restful-swagger-2==0.35
 idna==2.7
 itsdangerous==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 jsonschema==2.6.0
 MarkupSafe==1.1.0
 maxminddb==1.4.1
